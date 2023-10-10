@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['brown', 'green', 'orange', 'purple', 'red', 'yellow']
+
+roboflow:
+  workspace: msa-ciwxj
+  project: yoon-2
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/msa-ciwxj/yoon-2/dataset/8
